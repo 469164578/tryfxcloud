@@ -1,0 +1,4 @@
+org\fxytry\ProductApp.class
+org\fxytry\service\ProductService.class
+org\fxytry\service\impl\ProductServiceImpl.class
+org\fxytry\mapper\ProductMapper.class
