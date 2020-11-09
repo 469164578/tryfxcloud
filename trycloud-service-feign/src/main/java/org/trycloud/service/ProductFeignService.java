@@ -9,7 +9,7 @@ import org.trycloud.config.FeignClientConfig;
 import org.trycloud.entity.Product;
 
 @FeignClient(name="TRYCLOUD-PROVIDER-PRODUCT",configuration=FeignClientConfig.class,
-fallbackFactory=IProductClientServiceFallbackFactory.class)
+fallbackFactory=ProductClientServiceFallbackFactory.class)
 public interface ProductFeignService {
 	@RequestMapping(value="/prodcut/get/{id}")
     public Product get(@PathVariable("id") long id);
