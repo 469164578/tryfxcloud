@@ -1,0 +1,12 @@
+server:
+  port: 9501
+
+eureka:
+  client: # 客户端进行Eureka注册的配置
+    service-url:
+      defaultZone: http://fxy:1234@eureka1:7001/eureka,http://fxy:1234@eureka2:7002/eureka,http://fxy:1234@eureka3:7003/eureka
+    register-with-eureka: false
+
+spring:
+  application:
+    name:  trycloud-zull-gateway

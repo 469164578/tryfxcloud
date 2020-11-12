@@ -14,6 +14,10 @@
     <module>trycloud-eureka2</module>
     <module>trycloud-eureka3</module>
     <module>trycloud-service-feign</module>
+    <module>trycloud-consumer-hystrix-dashboard</module>
+    <module>trycloud-provider-user-hystrix</module>
+    <module>trycloud-consumer-turbine</module>
+    <module>trycloud-zuul-geteway</module>
   </modules>
   <properties>
         <jdk.version>1.8</jdk.version>
@@ -31,7 +35,7 @@
     <dependency> <!-- SpringCloud离不开SpringBoot，所以必须要配置此依赖包 -->
     <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>2.1.2.RELEASE</version>
+        <version>2.0.7.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
     </dependency>
