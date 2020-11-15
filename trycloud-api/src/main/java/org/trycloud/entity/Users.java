@@ -24,6 +24,4 @@ public class Users implements Serializable {
 	public void setSex(String sex) {
 		this.sex = sex;
 	}
-	
-	
 }

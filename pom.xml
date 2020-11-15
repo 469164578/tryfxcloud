@@ -17,7 +17,8 @@
     <module>trycloud-consumer-hystrix-dashboard</module>
     <module>trycloud-provider-user-hystrix</module>
     <module>trycloud-consumer-turbine</module>
-    <module>trycloud-zuul-geteway</module>
+    <module>trycloud-zuul-gateway</module>
+    <module>trycloud-config</module>
   </modules>
   <properties>
         <jdk.version>1.8</jdk.version>
