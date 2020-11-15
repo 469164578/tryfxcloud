@@ -1,0 +1,12 @@
+server:
+  port: 7101
+
+spring:
+  application:
+    name: microcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/469164578/trycloud_config.git
+          default-label: main
