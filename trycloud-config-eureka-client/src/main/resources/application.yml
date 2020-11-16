@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: trycloud-config-eureka-client
