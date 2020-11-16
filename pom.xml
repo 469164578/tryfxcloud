@@ -19,6 +19,7 @@
     <module>trycloud-consumer-turbine</module>
     <module>trycloud-zuul-gateway</module>
     <module>trycloud-config</module>
+    <module>trycloud-config-client</module>
   </modules>
   <properties>
         <jdk.version>1.8</jdk.version>
