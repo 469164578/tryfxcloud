@@ -1,0 +1,33 @@
+server:
+  port: 7102
+
+spring:
+  application:
+    name: trycloud-config-bus
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/fxy_try/springcloud_config.git
+          default-label: main
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+     
+eureka:
+  client:
+    service-url:
+      defaultZone: http://fxy:1234@eureka1:7301/eureka
+  instance:
+    prefer-ip-address: true # 在地址栏上使用IP地址进行显示
+    instance-id: trycloud-config-bus
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
