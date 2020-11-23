@@ -24,6 +24,8 @@
     <module>trycloud-config-client</module>
     <module>trycloud-config-bus</module>
     <module>trycloud-config-bus-client</module>
+    <module>trycloud-stream-provider</module>
+    <module>trycloud-stream-consumer</module>
   </modules>
   <properties>
         <jdk.version>1.8</jdk.version>
