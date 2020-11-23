@@ -7,10 +7,10 @@
     <artifactId>tryfxycloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>tryfxy-config</groupId>
-  <artifactId>trycloud-config</artifactId>
+  <groupId>tryfxy-config3</groupId>
+  <artifactId>trycloud-config3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>trycloud-config</name>
+  <name>trycloud-config3</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,6 +24,7 @@
             <groupId>tryfxy</groupId>
             <artifactId>trycloud-security</artifactId>
   	  </dependency>
+  	  
   	  <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

@@ -19,6 +19,8 @@
     <module>trycloud-consumer-turbine</module>
     <module>trycloud-zuul-gateway</module>
     <module>trycloud-config</module>
+    <module>trycloud-config2</module>
+    <module>trycloud-config3</module>
     <module>trycloud-config-client</module>
   </modules>
   <properties>

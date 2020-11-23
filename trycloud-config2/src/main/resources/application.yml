@@ -1,5 +1,5 @@
 server:
-  port: 7101
+  port: 7102
 
 spring:
   application:
@@ -16,4 +16,4 @@ eureka:
       defaultZone: http://fxy:1234@eureka1:7301/eureka
   instance:
     prefer-ip-address: true # 在地址栏上使用IP地址进行显示
-    instance-id: trycloud-config1
+    instance-id: trycloud-config2

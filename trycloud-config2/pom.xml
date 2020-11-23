@@ -7,10 +7,10 @@
     <artifactId>tryfxycloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>tryfxy-config</groupId>
-  <artifactId>trycloud-config</artifactId>
+  <groupId>trycloud-config2</groupId>
+  <artifactId>trycloud-config2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>trycloud-config</name>
+  <name>trycloud-config2</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
