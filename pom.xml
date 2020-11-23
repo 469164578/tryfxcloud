@@ -22,6 +22,8 @@
     <module>trycloud-config2</module>
     <module>trycloud-config3</module>
     <module>trycloud-config-client</module>
+    <module>trycloud-config-bus</module>
+    <module>trycloud-config-bus-client</module>
   </modules>
   <properties>
         <jdk.version>1.8</jdk.version>
