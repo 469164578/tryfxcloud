@@ -36,7 +36,7 @@
     <module>trycloud-provider-product3</module>
     <module>trycloud-provider-product-hystrix</module>
     <module>trycloud-stream-consumer2</module>
-    <module>trycloud-zuul-geteway</module>
+    <module>trycloud-zuul-gateway</module>
   </modules>
   <properties>
         <jdk.version>1.8</jdk.version>
