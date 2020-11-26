@@ -1,0 +1,10 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: trycloud-zipkin-server
+management:
+  metrics: 
+    web:
+      server:
+        auto-time-requests: false
