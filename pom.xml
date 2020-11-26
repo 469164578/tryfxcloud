@@ -17,7 +17,6 @@
     <module>trycloud-consumer-hystrix-dashboard</module>
     <module>trycloud-provider-user-hystrix</module>
     <module>trycloud-consumer-turbine</module>
-    <module>trycloud-zuul-gateway</module>
     <module>trycloud-config</module>
     <module>trycloud-config2</module>
     <module>trycloud-config3</module>
@@ -27,6 +26,17 @@
     <module>trycloud-stream-provider</module>
     <module>trycloud-stream-consumer</module>
     <module>trycloud-sleuth</module>
+    <module>trycloud-config-eureka-client</module>
+    <module>trycloud-config-provider-product</module>
+    <module>trycloud-consumer-feign</module>
+    <module>trycloud-consumer-feign-hystrix</module>
+    <module>trycloud-consumer-ribbon</module>
+    <module>trycloud-ha-config-eureka</module>
+    <module>trycloud-provider-product2</module>
+    <module>trycloud-provider-product3</module>
+    <module>trycloud-provider-product-hystrix</module>
+    <module>trycloud-stream-consumer2</module>
+    <module>trycloud-zuul-geteway</module>
   </modules>
   <properties>
         <jdk.version>1.8</jdk.version>
