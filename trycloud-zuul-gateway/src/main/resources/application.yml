@@ -14,19 +14,19 @@ eureka:
    
 
 spring:
+  zipkin:
+    base-url: http://localhost:8601 #所有的数据提交到此服务之中
+    sender:
+      type: web       #提交的类型是web 服务
+  sleuth:
+    sampler:
+      probability: 1.0 # 定义抽样比率，默认为0.1
   application:
     name:  trycloud-zull-gateway
   security:
     user:
       name: fxy
       password: 123456
-  zipkin: 
-    base-url: http://localhost:8601#所有的数据提交到此服务之中
-    sender: 
-    type: web #提交的类型是web 服务
-  sleuth: 
-    sampler: 
-     probability: 1.0 # 定义抽样比率，默认为0.1
 zuul:
  routes:
   trycloud-provider-users: /user-proxy/**

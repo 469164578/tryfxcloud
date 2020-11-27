@@ -4,22 +4,22 @@ mybatis:
  mapper-locations: # 所有的mapper映射文件
  - classpath:mapping/*.xml
 spring:
- application:
-  name: trycloud-provider-product
- zipkin: 
-  base-url: http://localhost:8601#所有的数据提交到此服务之中
-  sender: 
-   type: web #提交的类型是web 服务
- sleuth: 
-  sampler: 
-   probability: 1.0 # 定义抽样比率，默认为0.1
- datasource:
-   type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
-   #driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
-   driver-class-name: com.mysql.jdbc.Driver
-   url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=GMT%2B8 # 数据库连接地址
-   username: root # 数据库用户名
-   password: mysql # 数据库连接密码
+  zipkin:
+    base-url: http://localhost:8601 #所有的数据提交到此服务之中
+    sender:
+      type: web       #提交的类型是web 服务
+  sleuth:
+    sampler:
+      probability: 1.0 # 定义抽样比率，默认为0.1
+  application:
+    name: trycloud-provider-product
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
+    #driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=GMT%2B8 # 数据库连接地址
+    username: root # 数据库用户名
+    password: mysql # 数据库连接密码
 # security:
 #  user:
 #   name: admin
